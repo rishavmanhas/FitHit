@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Workout Content">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author"   content="Rishav Manhas">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    
+</head>
+<body>
+    <!-- NavBar -->
+    <nav class="bg-gray-900 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold">FitHit</a>
+            <ul class="hidden md:flex space-x-6">
+                <li><a href="#" class="hover:text-yellow-400">Home</a></li>
+                <li><a href="workout.html" class="hover:text-yellow-400">Workouts</a></li>
+                <li><a href="#" class="hover:text-yellow-400">Nutrition</a></li>
+                <li><a href="#" class="hover:text-yellow-400">About</a></li>
+                <li><a href="#" class="hover:text-yellow-400">Contact</a></li>
+            </ul>
+            <button class="md:hidden text-xl" id="menu-btn">☰</button>
+        </div>
+        <div class="hidden md:hidden flex flex-col bg-gray-800 p-4" id="mobile-menu">
+            <a href="#" class="py-2 hover:text-yellow-400">Home</a>
+            <a href="#" class="py-2 hover:text-yellow-400">Workouts</a>
+            <a href="#" class="py-2 hover:text-yellow-400">Nutrition</a>
+            <a href="#" class="py-2 hover:text-yellow-400">About</a>
+            <a href="#" class="py-2 hover:text-yellow-400">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Punchline -->
+<div class="bg-gray-900 flex justify-center items-center min-h-screen p-4">
+    
+    <div class="bg-white/10 backdrop-blur-lg border border-white/20 rounded-lg shadow-lg p-8 max-w-3xl text-white text-center relative">
+        <h2 class="text-3xl font-bold mb-4">💪 The Power of Working Out</h2>
+        <p class="text-lg mb-6">
+            Working out isn’t just about lifting weights – it’s about building discipline, improving mental health, and becoming the best version of yourself. Whether you're a beginner or an expert, every rep counts! 🏋️‍♂️
+        </p>
+        <!-- Start Button -->
+         <button id="signup-btn"
+         class="bg-yellow-500 text-black px-6 py-3 rounded-lg font-bold hover:bg-yellow-400 transition shadow-md">
+          Start Your Fitness Journey
+         </button>
+        <!-- Glowing Effect -->
+        <div class="absolute top-0 left-0 w-full h-full bg-yellow-500 opacity-10 blur-2xl rounded-lg"></div>
+    </div>
+</div>
+
+
+
+<!-- Benifits explained in boxes -->
+<div class="bg-gray-900 text-white flex flex-col items-center p-8">
+
+    <h2 class="text-3xl font-bold mb-6"> Benefits of Working Out</h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl">
+
+        <!-- Box 1 -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg border border-yellow-500 hover:scale-105 hover:shadow-yellow-500/50 transition transform duration-300 text-center">
+            <div class="text-4xl">💪</div>
+            <h3 class="text-xl font-bold mt-4">Build Strength</h3>
+            <p class="text-gray-400 mt-2">Increase muscle mass and endurance with regular workouts.</p>
+        </div>
+
+        <!-- Box 2 -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg border border-blue-500 hover:scale-105 hover:shadow-blue-500/50 transition transform duration-300 text-center">
+            <div class="text-4xl">❤️</div>
+            <h3 class="text-xl font-bold mt-4">Boost Heart Health</h3>
+            <p class="text-gray-400 mt-2">Improve cardiovascular health and lower the risk of heart disease.</p>
+        </div>
+
+        <!-- Box 3 -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg border border-green-500 hover:scale-105 hover:shadow-green-500/50 transition transform duration-300 text-center">
+            <div class="text-4xl">🧠</div>
+            <h3 class="text-xl font-bold mt-4">Enhance Mental Well-being</h3>
+            <p class="text-gray-400 mt-2">Reduce stress, anxiety, and boost your overall mood.</p>
+        </div>
+
+        <!-- Box 4 -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg border border-purple-500 hover:scale-105 hover:shadow-purple-500/50 transition transform duration-300 text-center">
+            <div class="text-4xl">⚡</div>
+            <h3 class="text-xl font-bold mt-4">Increase Energy Levels</h3>
+            <p class="text-gray-400 mt-2">Stay active and feel more energized throughout the day.</p>
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="bg-gray-900 text-white p-8">
+    
+    <h1 class="text-4xl font-bold text-center mb-8">💪 Types of Weight Training</h1>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+
+        <!-- Strength Training -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-yellow-500 hover:scale-105 transition duration-300">
+            <h2 class="text-2xl font-bold">🏋️‍♂️ Strength Training</h2>
+            <p class="text-gray-400 mt-2">
+                Strength training focuses on lifting heavy weights with low repetitions (1-6 reps per set) to build maximum strength and power.  
+                <br>🔹 Common Exercises: Squats, deadlifts, bench press.  
+                <br>🎯 Goal: Develop raw power and strength.
+            </p>
+        </div>
+
+        <!-- Hypertrophy Training -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-blue-500 hover:scale-105 transition duration-300">
+            <h2 class="text-2xl font-bold">💪 Hypertrophy Training (Muscle Growth)</h2>
+            <p class="text-gray-400 mt-2">
+                Uses moderate to heavy weights with medium repetitions (6-12 reps per set) to increase muscle size and definition.  
+                <br>🔹 Common Exercises: Bicep curls, leg press, shoulder press.  
+                <br>🎯 Goal: Build bigger, well-defined muscles.
+            </p>
+        </div>
+
+        <!-- Endurance Training -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-green-500 hover:scale-105 transition duration-300">
+            <h2 class="text-2xl font-bold">🏃‍♂️ Endurance Training</h2>
+            <p class="text-gray-400 mt-2">
+                Uses lighter weights with high repetitions (12-20+ reps per set) to enhance muscular endurance.  
+                <br>🔹 Common Exercises: Bodyweight workouts, resistance band training.  
+                <br>🎯 Goal: Improve stamina and muscle endurance.
+            </p>
+        </div>
+
+        <!-- Power Training -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-red-500 hover:scale-105 transition duration-300">
+            <h2 class="text-2xl font-bold">⚡ Power Training</h2>
+            <p class="text-gray-400 mt-2">
+                Combines strength and speed through explosive movements for athletic performance.  
+                <br>🔹 Common Exercises: Olympic lifts (snatch, clean and jerk), plyometrics.  
+                <br>🎯 Goal: Boost explosive power for sports.
+            </p>
+        </div>
+
+        <!-- Functional Training -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-purple-500 hover:scale-105 transition duration-300">
+            <h2 class="text-2xl font-bold">🏋️ Functional Training</h2>
+            <p class="text-gray-400 mt-2">
+                Focuses on real-life movement patterns for better balance, coordination, and mobility.  
+                <br>🔹 Common Exercises: Kettlebell swings, medicine ball throws, TRX training.  
+                <br>🎯 Goal: Improve body movement and athletic function.
+            </p>
+        </div>
+
+        <!-- Circuit Training -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-orange-500 hover:scale-105 transition duration-300">
+            <h2 class="text-2xl font-bold">🔄 Circuit Training</h2>
+            <p class="text-gray-400 mt-2">
+                Involves performing a series of exercises with minimal rest to improve strength and endurance.  
+                <br>🔹 Common Exercises: Squats, push-ups, lunges, rows, planks.  
+                <br>🎯 Goal: Build strength, endurance, and cardiovascular fitness.
+            </p>
+        </div>
+
+        <!-- Bodyweight Training -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-pink-500 hover:scale-105 transition duration-300">
+            <h2 class="text-2xl font-bold">🤸‍♂️ Bodyweight Training</h2>
+            <p class="text-gray-400 mt-2">
+                Uses body weight as resistance instead of gym equipment.  
+                <br>🔹 Common Exercises: Push-ups, pull-ups, dips, squats.  
+                <br>🎯 Goal: Improve strength, endurance, and flexibility anywhere.
+            </p>
+        </div>
+
+        <!-- Isometric Training -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-teal-500 hover:scale-105 transition duration-300">
+            <h2 class="text-2xl font-bold">🛑 Isometric Training</h2>
+            <p class="text-gray-400 mt-2">
+                Involves holding a position without movement to increase muscular endurance.  
+                <br>🔹 Common Exercises: Planks, wall sits, static holds.  
+                <br>🎯 Goal: Strengthen muscles without movement.
+            </p>
+        </div>
+
+        <!-- Resistance Band Training -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-cyan-500 hover:scale-105 transition duration-300">
+            <h2 class="text-2xl font-bold">🌀 Resistance Band Training</h2>
+            <p class="text-gray-400 mt-2">
+                Uses elastic bands for strength, flexibility, and rehabilitation.  
+                <br>🔹 Common Exercises: Band rows, lateral raises, leg extensions.  
+                <br>🎯 Goal: Great for injury recovery & mobility work.
+            </p>
+        </div>
+
+        <!-- Eccentric Training -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-indigo-500 hover:scale-105 transition duration-300">
+            <h2 class="text-2xl font-bold">📉 Eccentric Training</h2>
+            <p class="text-gray-400 mt-2">
+                Focuses on slowing down the lowering phase of an exercise to build control.  
+                <br>🔹 Common Exercises: Negative pull-ups, slow eccentric squats.  
+                <br>🎯 Goal: Improve strength & reduce injury risk.
+            </p>
+        </div>
+
+    </div>
+</div>
+
+<div class="bg-gray-900 flex items-center justify-center min-h-screen">
+    <div class="w-full max-w-md bg-yellow-400 p-6 rounded-lg shadow-lg text-center">
+        <h1 class="text-2xl font-bold text-gray-800 mb-4">Find Your Ideal Workout Plan</h1>
+        
+        <form id="workoutForm" class="space-y-4">
+            <div>
+                <label for="age" class="block font-semibold text-gray-700" >Age:</label>
+                <input type="number" id="age" required min="12"
+                    class="w-full p-2 mt-1 border rounded-lg focus:ring-2 focus:ring-yellow-400">
+            </div>
+
+            <div>
+                <label for="goal" class="block font-semibold text-gray-700">Fitness Goal:</label>
+                <select id="goal" 
+                    class="w-full p-2 mt-1 border rounded-lg focus:ring-2 focus:ring-yellow-400">
+                    <option value="muscle_gain">Muscle Gain</option>
+                    <option value="fat_loss">Fat Loss</option>
+                    <option value="endurance">Endurance</option>
+                    <option value="strength">Strength</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="trainingLevel" class="block font-semibold text-gray-700">Training Level:</label>
+                <select id="trainingLevel" 
+                    class="w-full p-2 mt-1 border rounded-lg focus:ring-2 focus:ring-yellow-400">
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                </select>
+            </div>
+
+            <button type="submit" 
+                class="w-full bg-blue-900 text-white font-bold p-3 rounded-lg hover:bg-yellow-400 transition">
+                Get My Workout Plan
+            </button>
+        </form>
+        
+        <div id="result" class="mt-4 font-semibold text-gray-800"></div>
+    </div>
+</div>
+<script src="script.js"></script>
+<footer class="bg-gray-900 text-white py-10 mt-1">
+    <div class="container mx-auto px-6 md:px-12">
+        <div class="flex flex-wrap justify-between items-center text-center md:text-left">
+            <!-- Brand & About -->
+            <div class="w-full md:w-1/3 mb-6 md:mb-0">
+                <h2 class="text-3xl font-bold text-yellow-500">FitHit</h2>
+                <p class="mt-2 text-gray-400">
+                    Your fitness journey starts here. Work hard, stay consistent, and become your best self! 💪
+                </p>
+            </div>
+
+            
+
+            <!-- Newsletter Signup -->
+            <div class="w-full md:w-1/3">
+                <h3 class="text-xl font-semibold text-yellow-400">Subscribe</h3>
+                <p class="text-gray-400 text-sm mt-2">Get the latest workout tips and updates.</p>
+                <div class="mt-3 flex">
+                    <input type="email" placeholder="Your Email" class="p-2 rounded-l bg-gray-800 text-white focus:ring-2 focus:ring-yellow-400">
+                    <button class="bg-yellow-500 text-black px-4 rounded-r font-bold hover:bg-yellow-400 transition">
+                        Subscribe
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Social Media & Copyright -->
+        <div class="mt-10 border-t border-gray-700 pt-6 text-center">
+            <div class="flex justify-center space-x-6">
+                <a href="#" class="hover:text-yellow-400"><i class="fab fa-facebook text-2xl"></i></a>
+                <a href="#" class="hover:text-yellow-400"><i class="fab fa-instagram text-2xl"></i></a>
+                <a href="#" class="hover:text-yellow-400"><i class="fab fa-twitter text-2xl"></i></a>
+                <a href="#" class="hover:text-yellow-400"><i class="fab fa-youtube text-2xl"></i></a>
+            </div>
+            <p class="text-gray-500 text-sm mt-4">&copy; 2025 FitHit. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+</body>
+
+
+</html>
